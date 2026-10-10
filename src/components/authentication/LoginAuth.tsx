@@ -7,6 +7,7 @@ function LoginAuth()
 
     return (<>
                 <form action="" method="post">
+                    <div className="formContainer">
         <div className = "title">
             <h2>Login</h2>
         </div>
@@ -14,6 +15,7 @@ function LoginAuth()
             <input type="email" placeholder="email"/>
             <input type="password" placeholder="password"/>
             
+        </div>
         </div>
         
 
